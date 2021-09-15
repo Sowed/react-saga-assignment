@@ -1,4 +1,3 @@
-// import {takeEvery} from 'redux-saga';
 import {takeEvery, call, fork, put} from 'redux-saga/effects';
 import * as api from '../api/users';
 import * as actions from '../actions/userActions';
